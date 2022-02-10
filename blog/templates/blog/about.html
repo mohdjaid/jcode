@@ -1,0 +1,55 @@
+{% extends 'blog/basic.html' %}
+{% load static %}
+{% block title %} jcode Home {% endblock %}
+{% block body %}
+    <div class="container my-4">
+        <div class="row featurette d-flex justify-content-center align-item-center">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">About<span
+                        class="text-muted"> jcode</span></h2>
+                <p class="lead">Welcome in jcode... here with the help of this platform i am providing the content related with technology, computer languages
+                     article with example which help the learner more. The articles are full of the example and exercises which help lots in practice.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="{% static '6.png' %}" class="img-fluid" width="500" height="500" alt="" class="src">
+            </div>
+        </div>
+    </div>
+    <div class="container my-4">
+        <div class="row featurette d-flex justify-content-center align-item-center">
+            <div class="col-md-7 order-md-3">
+                <h2 class="featurette-heading">jcode <span class="text-muted">Objectives</span></h2>
+                <p class="lead"> Encourage an awareness of the impact of technology on society and the environment
+
+                    develop an appreciation of the international and intercultural aspects of technology
+                    
+                    provide a variety of technological information and ideas
+                    
+                    encourage curiosity, ingenuity, resourcefulness and discrimination
+                    
+                    stimulate self-confidence through the knowledge and application of technology
+                    
+                    develop practical skills through the creation of products/solutions
+                    
+                    promote effective, informed, appropriate communication</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img src="{% static '1.jpg' %}" class="img-fluid" width="450" height="500" alt="" class="src">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="container my-4">
+        <div class="row featurette d-flex justify-content-center align-item-center">
+            <div class="col-md-7>
+                <h2 class="featurette-heading">jcode <span class="text-muted">Author</span></h2>
+                <p class="lead"> </p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img src="{% static '1.jpg' %}" class="img-fluid" width="450" height="500" alt="" class="src">
+
+            </div>
+        </div>
+    </div> -->
+    {% endblock %}
